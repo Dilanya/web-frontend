@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
+
+/* Section */
+.vision_mission {
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Row */
+.row1 {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+/* Card */
+.card {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  transition: ease all 2.3s;
+  perspective: 1200px;
+}
+
+.card:hover {
+  .cover {
+    transform: rotateX(0deg) rotateY(-180deg);
+    &:before {
+      transform: translateZ(30px);
+    }
+    &:after {
+      background-color: black;
+    }
+    h1 {
+      transform: translateZ(100px);
+    }
+    .price {
+      transform: translateZ(60px);
+    }
+    a {
+      transform: translateZ(-60px) rotatey(-180deg);
+    }
+  }
+}
+
+.card .cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: ease all 2.3s;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.card .cover:before {
+  content: '';
+  position: absolute;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2;
+  transition: ease all 2.3s;
+  transform-style: preserve-3d;
+  transform: translateZ(0px);
+}
+
+.card .cover:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  transition: ease all 1.3s;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.card .cover.item-b {
+  background-image: url('https://img.freepik.com/free-photo/low-angle-cheerful-team-students-passed-test-by-preparing-all-together_496169-2336.jpg?w=1060&t=st=1699193478~exp=1699194078~hmac=2ec75df7b195755283e82d1c1c3ba816bfe49cbaaf943036f0ff1a7896ef046b');
+}
+
+.card .cover.item-c {
+  background-image: url('https://img.freepik.com/free-photo/free-time-students-bachelor-s-campus-life-rhythm-five-friendly-students-are-walking_8353-6408.jpg?w=1060&t=st=1699193552~exp=1699194152~hmac=3d8f0104d619b931e55ae503c0c0ee7d50d6c9c315426713bf11361436dd881a');
+}
+
+.card .cover h1 {
+  font-weight: 600;
+  position: absolute;
+  bottom: 55px;
+  left: 50px;
+  color: white;
+  transform-style: preserve-3d;
+  transition: ease all 2.3s;
+  z-index: 3;
+  font-size: 3em;
+  transform: translateZ(0px);
+}
+
+.card .cover .price {
+  font-weight: 200;
+  position: absolute;
+  top: 55px;
+  right: 50px;
+  color: white;
+  transform-style: preserve-3d;
+  transition: ease all 2.3s;
+  z-index: 4;
+  font-size: 2em;
+  transform: translateZ(0px);
+}
+
+.card .card-back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #0b0f08;
+  transform-style: preserve-3d;
+  transition: ease all 2.3s;
+  transform: translateZ(-1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-size: 11px;
+}
+
+.card .card-back a {
+  transform-style: preserve-3d;
+  transition: ease transform 2.3s, ease background 0.5s;
+  transform: translateZ(-1px) rotatey(-180deg);
+  background: transparent;
+  border: 1px solid white;
+  font-weight: 200;
+  font-size: 1.3em;
+  color: white;
+  padding: 14px 32px;
+  outline: none;
+  text-decoration: none;
+}
+
+.card .card-back a:hover {
+  background-color: white;
+  color: #0b0f08;
+}

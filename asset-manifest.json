@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/web-frontend/static/css/main.72cae59c.css",
+    "main.js": "/web-frontend/static/js/main.787a539e.js",
+    "static/js/453.8ab44547.chunk.js": "/web-frontend/static/js/453.8ab44547.chunk.js",
+    "static/media/slider.jpg": "/web-frontend/static/media/slider.149ce861c8fca0ea1543.jpg",
+    "static/media/1.png": "/web-frontend/static/media/1.8af91b5a6eb62e1b5e93.png",
+    "static/media/dep3.jpeg": "/web-frontend/static/media/dep3.9b8b3f935782c6d1251c.jpeg",
+    "static/media/organizational_structure_nisd.jpg": "/web-frontend/static/media/organizational_structure_nisd.078fece14d0aff2eab0a.jpg",
+    "static/media/dep2.jpeg": "/web-frontend/static/media/dep2.d109a20377bf438bc98b.jpeg",
+    "static/media/dep1.jpeg": "/web-frontend/static/media/dep1.ce9efcca904cebe2b9b5.jpeg",
+    "static/media/dep4.jpeg": "/web-frontend/static/media/dep4.3d5709649c1b63792137.jpeg",
+    "static/media/cqa.jpeg": "/web-frontend/static/media/cqa.1b79db379f7f7eab98fb.jpeg",
+    "static/media/coming-soon-img.jpg": "/web-frontend/static/media/coming-soon-img.4515b56b937d96f3f734.jpg",
+    "static/media/dg.jpg": "/web-frontend/static/media/dg.899a01924efacbf4337d.jpg",
+    "static/media/logo.png": "/web-frontend/static/media/logo.902274766c3f2e2e2cee.png",
+    "static/media/board4.jpg": "/web-frontend/static/media/board4.957a6d57a72d7c8455dd.jpg",
+    "static/media/zero-plastic.jpg": "/web-frontend/static/media/zero-plastic.8f540b74deed77fd1253.jpg",
+    "static/media/nisd.jpeg": "/web-frontend/static/media/nisd.f7f33c80c0b7250b4e71.jpeg",
+    "static/media/map.png": "/web-frontend/static/media/map.55d229a0548ea9101ea1.png",
+    "static/media/our-teachers_01.jpg": "/web-frontend/static/media/our-teachers_01.3e2ed256302e446ed5a8.jpg",
+    "static/media/our-cources_03.jpg": "/web-frontend/static/media/our-cources_03.ffc0cbce24c9711bab99.jpg",
+    "static/media/chart_bg.jpg": "/web-frontend/static/media/chart_bg.d8dd377030d06dbe5740.jpg",
+    "static/media/facebook.png": "/web-frontend/static/media/facebook.b29a479ba80fd7d1f60d.png",
+    "static/media/linkedin.png": "/web-frontend/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "index.html": "/web-frontend/index.html",
+    "static/media/shortcode-list.html": "/web-frontend/static/media/shortcode-list.7c39b52e0b821cf6bef8.html",
+    "main.72cae59c.css.map": "/web-frontend/static/css/main.72cae59c.css.map",
+    "main.787a539e.js.map": "/web-frontend/static/js/main.787a539e.js.map",
+    "453.8ab44547.chunk.js.map": "/web-frontend/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72cae59c.css",
+    "static/js/main.787a539e.js"
+  ]
+}

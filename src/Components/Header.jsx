@@ -174,7 +174,7 @@ class Header extends React.Component {
 
         <BrowserRouter>
           <Routes>
-            <Route path="/" Component={Home} />
+            <Route path="/web-frontend" Component={Home} />
             <Route path="/news" Component={News} />
             <Route path="/news/:id/:title" element={<NewsSingle />} />
             <Route path="/events" Component={Events} />

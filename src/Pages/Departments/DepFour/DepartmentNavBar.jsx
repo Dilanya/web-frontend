@@ -8,7 +8,7 @@ export default function DepartmentNavBar(params) {
     let DepartmentNameEnglish ;
     let DepartmentNameSinhala 
 
-    if (currentLocation.startsWith("/faculty-of-social-work/department-of-anthropology-and-gerontology")) {
+    if (currentLocation.startsWith("/web-frontend/faculty-of-social-work/department-of-anthropology-and-gerontology")) {
       DepartmentNameEnglish = "Department of Anthropology and Gerontology";
       DepartmentNameSinhala = "මානව විද්‍යා හා වයෝවෘද්ධ විද්‍යා  අධ්‍යනාංශය";
     } else {
@@ -27,7 +27,7 @@ export default function DepartmentNavBar(params) {
                   >
                     <span class="icon-menu"></span>
                   </button>
-                  <a href={`/faculty-of-social-work/department-of-anthropology-and-gerontology`} className="navbar-brand nav-brand2">
+                  <a href={`/web-frontend/faculty-of-social-work/department-of-anthropology-and-gerontology`} className="navbar-brand nav-brand2">
                     <img
                       src={logo}
                       alt=""
@@ -38,7 +38,7 @@ export default function DepartmentNavBar(params) {
                       }}
                     />
                   </a>
-                  <a href={`/faculty-of-social-work/department-of-anthropology-and-gerontology`} class="navbar-brand nav-brand2">
+                  <a href={`/web-frontend/faculty-of-social-work/department-of-anthropology-and-gerontology`} class="navbar-brand nav-brand2">
                     <h2 style={{ fontSize: "15px" }}>
                       <b>
                         
@@ -52,13 +52,13 @@ export default function DepartmentNavBar(params) {
                   >
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href={`/faculty-of-social-work/department-of-anthropology-and-gerontology`}>
+                        <a class="nav-link" href={`/web-frontend/faculty-of-social-work/department-of-anthropology-and-gerontology`}>
                           Home
                         </a>
                       </li>
 
                       <li class="nav-item">
-                        <a class="nav-link" href={`/faculty-of-social-work/department-of-anthropology-and-gerontology/staff`}>
+                        <a class="nav-link" href={`/web-frontend/faculty-of-social-work/department-of-anthropology-and-gerontology/staff`}>
                           Staff
                         </a>
                       </li>

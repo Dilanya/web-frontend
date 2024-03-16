@@ -34,7 +34,7 @@ export default function Course(params) {
         </div> <br/>
         <div class="row">
             <div class="col-md-12 text-center">
-                <a href="/course-detail" class="btn btn-default btn-courses">View all courses</a>
+                <a href="/web-frontend/web-frontend/course-detail" class="btn btn-default btn-courses">View all courses</a>
             </div>
         </div>
     </div>

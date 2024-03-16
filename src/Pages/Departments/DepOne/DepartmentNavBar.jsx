@@ -8,7 +8,7 @@ export default function DepartmentNavBarOne(params) {
     let DepartmentNameEnglish ;
     let DepartmentNameSinhala 
 
-    if (currentLocation.startsWith("/faculty-of-social-work/department-of-social-work")) {
+    if (currentLocation.startsWith("/web-frontend/faculty-of-social-work/department-of-social-work")) {
       DepartmentNameEnglish = "Department of Social Work ";
       DepartmentNameSinhala = "සමාජ වැඩ අධ්‍යනාංශය";
     } else {
@@ -27,7 +27,7 @@ export default function DepartmentNavBarOne(params) {
                   >
                     <span class="icon-menu"></span>
                   </button>
-                  <a href={`/faculty-of-social-work/department-of-social-work`} className="navbar-brand nav-brand2">
+                  <a href={`/web-frontend/faculty-of-social-work/department-of-social-work`} className="navbar-brand nav-brand2">
                     <img
                       src={logo}
                       alt=""
@@ -38,7 +38,7 @@ export default function DepartmentNavBarOne(params) {
                       }}
                     />
                   </a>
-                  <a href={`/faculty-of-social-work/department-of-social-work`} class="navbar-brand nav-brand2">
+                  <a href={`/web-frontend/faculty-of-social-work/department-of-social-work`} class="navbar-brand nav-brand2">
                     <h2 style={{ fontSize: "15px" }}>
                       <b>
                         
@@ -52,13 +52,13 @@ export default function DepartmentNavBarOne(params) {
                   >
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href={`/faculty-of-social-work/department-of-social-work`}>
+                        <a class="nav-link" href={`/web-frontend/faculty-of-social-work/department-of-social-work`}>
                           Home
                         </a>
                       </li>
 
                       <li class="nav-item">
-                        <a class="nav-link" href={`/faculty-of-social-work/department-of-social-work/staff`}>
+                        <a class="nav-link" href={`/web-frontend/faculty-of-social-work/department-of-social-work/staff`}>
                           Staff
                         </a>
                       </li>
